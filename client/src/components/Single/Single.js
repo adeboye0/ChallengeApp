@@ -2,10 +2,10 @@ import React, { Component, Fragment } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-
+import Fab from '@material-ui/core/Fab';
 import { connect } from 'react-redux';
 import { singleTransaction } from '../../actions/TransActions';
-
+import NavigationIcon from '@material-ui/icons/Navigation';
 import Grid from '@material-ui/core/Grid';
 
 class Single extends Component {
@@ -49,6 +49,12 @@ class Single extends Component {
                         </CardContent>
 
                     </Card>
+
+                </Grid>
+                <Grid item xs={1}>
+                    <Fab color="primary" aria-label="add" href='/'>
+                        <NavigationIcon />
+                    </Fab>
 
                 </Grid>
             </Grid>
