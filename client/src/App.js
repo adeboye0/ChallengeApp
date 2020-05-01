@@ -24,7 +24,7 @@ class App extends Component {
                 <Route exact path='/' component={Home} />
                 <Route exact path='/view/:tnx_id' component={Single} />
                 <Route exact path='/add' component={Add} />
-                <Route path='/404' component={error404} />
+                <Route path='*' component={error404} />
               </Switch>
             </div>
             <Footer />
