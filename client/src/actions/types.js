@@ -1,0 +1,12 @@
+export const GET_TRANSACTION = 'GET_TRANSACTION';
+export const GET__SINGLE_TRANSACTION = 'GET__SINGLE_TRANSACTION';
+export const ADD_TRANSACTION = 'ADD_TRANSACTIONS';
+export const DELETE_TRANSACTION= 'DELETE_TRANSACTION';
+
+export const LOADING = 'LOADING';
+
+export const ADD_FAIL = 'ADD_FAIL';
+
+
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
