@@ -42,7 +42,7 @@ class Single extends Component {
 
                                 </Typography>
                                 <Typography color="textSecondary">
-                                    Description: {singleTransaction.date}
+                                    Date: {singleTransaction.date}
 
                                 </Typography></Fragment>}
 
