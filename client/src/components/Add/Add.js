@@ -31,6 +31,7 @@ class Add extends Component {
 
 
         var res = await this.props.addTransaction(newTransaction).then(res => console.log(res));
+        console.log(res);
         this.props.history.push('/');
     }
     render() {

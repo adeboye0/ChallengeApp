@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import { connect } from 'react-redux';
@@ -33,7 +31,7 @@ class Single extends Component {
                             <Typography variant="h5" component="h2" color="textSecondary" gutterBottom>
                                 Single Transaction
                 </Typography>
-                            {this.props.transaction.loading == true ? 'Loading' : <Fragment><Typography color="textSecondary" >
+                            {this.props.transaction.loading === true ? 'Loading' : <Fragment><Typography color="textSecondary" >
                                 Tnx_id : {singleTransaction._id}
                             </Typography>
                                 <Typography color="textSecondary">

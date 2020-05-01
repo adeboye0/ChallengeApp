@@ -52,7 +52,7 @@ class Home extends Component {
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
-                                    {this.props.transaction.loading == true ? 'Loading' : this.props.transaction.transactions.map((row) => (
+                                    {this.props.transaction.loading === true ? 'Loading' : this.props.transaction.transactions.map((row) => (
                                         <TableRow key={row._id}>
                                             <TableCell component="th" scope="row" >
                                                 {row._id}
